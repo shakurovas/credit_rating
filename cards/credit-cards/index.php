@@ -62,8 +62,9 @@ Loc::loadMessages(__FILE__);
 	$GLOBALS['arrFilter']['PROPERTY']['=PAYMENT_SYSTEM'] = $_GET['arrFilter_pf']['PAYMENT_SYSTEM'];
     $GLOBALS['arrFilter']['PROPERTY']['=BANK'] = $_GET['arrFilter_pf']['BANK'];
     $GLOBALS['arrFilter']['PROPERTY']['=CARD_CATEGORY'] = $_GET['arrFilter_pf']['CARD_CATEGORY'];
-    $GLOBALS['arrFilter']['PROPERTY']['=CARD_FEATURES'] = $_GET['arrFilter_pf']['CARD_FEATURES'];
-	$GLOBALS['arrFilter']['PROPERTY']['=BONUS_TYPE'] = $_GET['arrFilter_pf']['BONUS_TYPE'];
+    $GLOBALS['arrFilter']['PROPERTY']['=CARD_PURPOSE'] = $_GET['arrFilter_pf']['CARD_PURPOSE'];
+	$GLOBALS['arrFilter']['PROPERTY']['=FREE_PERIOD'] = $_GET['arrFilter_pf']['FREE_PERIOD'];
+	$GLOBALS['arrFilter']['PROPERTY']['=ADDITIONAL_TERMS'] = $_GET['arrFilter_pf']['ADDITIONAL_TERMS'];
 ?>
 
                 <?$APPLICATION->IncludeComponent(
