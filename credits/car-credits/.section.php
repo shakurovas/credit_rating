@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Автокредиты";
+$arDirProperties = Array(
+
+);
+?>
