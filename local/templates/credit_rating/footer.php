@@ -9,7 +9,6 @@ Loc::loadMessages(__FILE__);
         <div class="footer-top">
             <div class="container">
                 <div class="section-content">
-                    <!-- <nav class="footer-nav"> -->
                         <?$APPLICATION->IncludeComponent(
 	"bitrix:menu", 
 	"bottom_menu", 
@@ -29,7 +28,6 @@ Loc::loadMessages(__FILE__);
 	),
 	false
 );?>
-                    <!-- </nav> -->
                 </div>            
             </div>
         </div>

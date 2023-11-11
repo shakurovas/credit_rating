@@ -6,13 +6,6 @@ use \Bitrix\Main\Localization\Loc;
 Loc::loadMessages(__FILE__);
 
 global $arrFilter;
-// $arrFilter = array(/*параметры для фильтрации*/);
-
-
-// echo '<pre>';
-// print_r($_GET);
-// echo '</pre>';
-
 ?>
 
 <main>
@@ -69,31 +62,7 @@ global $arrFilter;
     $GLOBALS['arrFilter']['PROPERTY']['=DOCUMENTS'] = $_GET['arrFilter_pf']['DOCUMENTS'];
     $GLOBALS['arrFilter']['PROPERTY']['=ADDITIONAL_TERMS'] = $_GET['arrFilter_pf']['ADDITIONAL_TERMS'];
     $GLOBALS['arrFilter']['PROPERTY']['=HAS_CREDIT_HISTORY'] = $_GET['arrFilter_pf']['HAS_CREDIT_HISTORY'];
-// echo '<pre>';
-// print_r($arrFilter);
-// echo '</pre>';
-
-// echo '<pre>';
-// print_r($_GET);
-// echo '</pre>';
 ?>
-            <!-- <div class="my-sort-container mb-6">
-                <div class="my-sort" data-default="<?//=Loc::getMessage('SORT');?>">
-                    <div class="my-sort__outer-box">
-                        <div class="my-sort__current-value"></div>
-                        <div class="my-sort__icon">
-                            <img src="<?//=SITE_TEMPLATE_PATH;?>/img/icons/sort.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="my-sort__droplist">
-                    
-                        <label for="popularity"><input <?//if ($_GET["sort_by"] == "PROPERTY_SERVICE_RATING") echo 'checked';?> type="radio" name="sort" id="popularity" value="<?//=Loc::getMessage('BY_POPULARITY');?>"> <?//=Loc::getMessage('BY_POPULARITY');?></label>
-                        <label for="rate"><input <?//if ($_GET["sort_by"] == "PROPERTY_RATE") echo 'checked';?> type="radio" name="sort" id="rate" value="<?//=Loc::getMessage('BY_RATE');?>"> <?//=Loc::getMessage('BY_RATE');?></label>
-                        <label for="sum"><input <?//if ($_GET["sort_by"] == "PROPERTY_SUM") echo 'checked';?> type="radio" name="sort" id="sum" value="<?//=Loc::getMessage('BY_SUM');?>"> <?//=Loc::getMessage('BY_SUM');?></label>                                
-                    </div>
-                </div>
-            </div> -->
-
 
             <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 

@@ -115,7 +115,7 @@ class ScrollingTabs{
             
             if (!sheetsContainerNode) return false;
 
-            //Проверяем на случайно указанные активные страницы
+            // Проверяем на случайно указанные активные страницы
             const activeSheets = sheetsContainerNode.querySelectorAll('.active');
             if ( activeSheets.length ){
                 activeSheets.forEach( activeSheet => {

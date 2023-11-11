@@ -8,12 +8,5 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
-		"Карта сайта", 
-		"map.php", 
-		Array(), 
-		Array(), 
-		"" 
-	)
 );
 ?>
